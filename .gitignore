@@ -11,6 +11,9 @@
 # production
 /build
 
+# starting files
+/starting-files
+
 # misc
 .DS_Store
 .env.local
