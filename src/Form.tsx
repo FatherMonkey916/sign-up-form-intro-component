@@ -13,10 +13,13 @@ export default function Form() {
     register,
     handleSubmit,
     watch,
+    reset,
     formState: { errors },
   } = useForm<UserInfo>();
+
   const onSubmit = (data: UserInfo) => {
     console.log("data", data);
+    reset();
   };
 
   return (
@@ -53,8 +56,8 @@ export default function Form() {
               pattern: /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/,
             })}
           />
-          {errors?.email?.type == "required" && <p>Email cannot be empty</p>}
-          {errors?.email?.type == "pattern" && (
+          {errors?.email?.type === "required" && <p>Email cannot be empty</p>}
+          {errors?.email?.type === "pattern" && (
             <p>Looks like this is not an email</p>
           )}
         </div>
