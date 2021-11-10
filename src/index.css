@@ -5,6 +5,12 @@
   --color-accent-blue: hsl(248, 32%, 49%);
   --color-neutral-dark-blue: hsl(249, 10%, 26%);
   --color-neutral-grayish-blue: hsl(246, 25%, 77%);
+
+  /* font weights */
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
 }
 
 *,

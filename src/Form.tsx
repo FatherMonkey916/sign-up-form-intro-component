@@ -76,7 +76,13 @@ export default function Form() {
       </form>
       <p>
         By clicking the button, you are agreeing to our{" "}
-        <a href="#">Terms and Services</a>
+        <a
+          href="http://www.example.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Terms and Services
+        </a>
       </p>
     </div>
   );

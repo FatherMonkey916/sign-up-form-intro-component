@@ -5,8 +5,50 @@
 */
 
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #fff;
+  text-align: center;
 }
 
-.App-blue-box {
+.App-container {
+  margin: 5.5rem 0 4.25rem 0;
+  width: min(500px, 90%);
+}
+
+.App-copy-heading {
+  font-size: 1.75rem;
+  font-weight: var(--bold);
+  line-height: 36px;
+  letter-spacing: -0.29px;
+  margin-bottom: 1rem;
+}
+
+.App-copy-main {
+  font-weight: var(--medium);
+  line-height: 26px;
+  padding: 0.5em 0.5em;
+}
+
+.App-copy-container {
+  margin-bottom: 4rem;
+}
+
+.App-blue-rectangle {
   background-color: var(--color-accent-blue);
+  border-radius: 10px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.App-blue-rect-text {
+  font-size: 0.9375;
+  font-weight: var(--regular);
+  line-height: 26px;
+  letter-spacing: 0.27px;
+}
+
+.App-blue-rect-text span {
+  font-weight: var(--bold);
 }
