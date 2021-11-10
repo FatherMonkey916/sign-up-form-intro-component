@@ -1,2 +1,12 @@
+/*
+  Layout: 
+  - Mobile: 375px
+  - Desktop: 1440px
+*/
+
 .App {
+}
+
+.App-blue-box {
+  background-color: var(--color-accent-blue);
 }
