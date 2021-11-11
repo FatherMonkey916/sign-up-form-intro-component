@@ -27,6 +27,7 @@ html {
 }
 
 body {
+  background-image: url("./images/bg-intro-mobile.png");
   background-color: var(--color-primary-red);
   height: 100vh;
 }

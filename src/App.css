@@ -14,7 +14,7 @@
 }
 
 .App-container {
-  margin: 5.5rem 0 4.25rem 0;
+  margin: 5.5rem 0 4rem 0;
   width: min(500px, 90%);
 }
 
@@ -39,7 +39,7 @@
 .App-blue-rectangle {
   background-color: var(--color-accent-blue);
   border-radius: 10px;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.14688);
   margin-bottom: 1.5rem;
   padding: 1.125em 4em;
 }

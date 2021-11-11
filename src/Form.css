@@ -6,12 +6,18 @@
   padding: 1.5em;
 }
 
+.Form-field {
+  margin-bottom: 1rem;
+}
+
 .Form input {
-  width: 100%;
   font-size: 0.875rem;
   font-weight: var(--semi-bold);
   line-height: 26px;
   letter-spacing: 0.25px;
+
+  padding: 0.95em 1.2em;
+  width: 100%;
 }
 
 .Form-terms {
@@ -25,4 +31,39 @@
   color: var(--color-primary-red);
   font-weight: var(--bold);
   text-decoration: none;
+}
+
+.Form button:hover {
+  background-color: #77e2b3;
+  cursor: pointer;
+}
+
+.Form button {
+  background-color: var(--color-primary-green);
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.0908818);
+
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: var(--semi-bold);
+  line-height: 26px;
+  letter-spacing: 1px;
+
+  margin-bottom: 0.5rem;
+  padding: 1em 3em;
+  width: 100%;
+}
+
+.Form-error-msg {
+  color: var(--color-primary-red);
+  font-size: 0.6875rem;
+  font-style: italic;
+  font-weight: var(--medium);
+  line-height: 16px;
+  text-align: right;
+
+  margin-top: 6px;
 }
