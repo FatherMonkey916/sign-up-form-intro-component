@@ -10,7 +10,7 @@
   margin-bottom: 1rem;
 }
 
-.Form input {
+.Form-input {
   border: 1px solid var(--color-neutral-grayish-blue);
   border-radius: 5px;
 
@@ -21,6 +21,10 @@
 
   padding: 0.95em 1.2em;
   width: 100%;
+}
+
+.Form-error {
+  border: 2px solid var(--color-primary-red);
 }
 
 .Form-terms {

@@ -25,11 +25,11 @@ export default function Form() {
 
   return (
     //TODO: Add icons to inputs when in error state
-    //TODO: Change input border color when in error state
     <div className="Form">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="Form-field">
           <input
+            className={`Form-input ${errors.password ? "Form-error" : ""}`}
             type="text"
             id="firstName"
             placeholder="First Name"
@@ -43,6 +43,7 @@ export default function Form() {
 
         <div className="Form-field">
           <input
+            className={`Form-input ${errors.password ? "Form-error" : ""}`}
             type="text"
             id="lastName"
             placeholder="Last Name"
@@ -55,6 +56,7 @@ export default function Form() {
 
         <div className="Form-field">
           <input
+            className={`Form-input ${errors.password ? "Form-error" : ""}`}
             type="email"
             id="email"
             placeholder="Email Address"
@@ -73,6 +75,7 @@ export default function Form() {
 
         <div className="Form-field">
           <input
+            className={`Form-input ${errors.password ? "Form-error" : ""}`}
             type="password"
             id="pwd"
             placeholder="Password"
