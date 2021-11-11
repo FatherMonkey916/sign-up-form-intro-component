@@ -74,7 +74,7 @@ export default function Form() {
 
         <button type="submit">Claim Your Free Trial</button>
       </form>
-      <p>
+      <p className="Form-terms">
         By clicking the button, you are agreeing to our{" "}
         <a
           href="http://www.example.com"

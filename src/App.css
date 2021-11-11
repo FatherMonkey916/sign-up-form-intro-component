@@ -40,6 +40,8 @@
   background-color: var(--color-accent-blue);
   border-radius: 10px;
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 1.5rem;
+  padding: 1.125em 4em;
 }
 
 .App-blue-rect-text {
