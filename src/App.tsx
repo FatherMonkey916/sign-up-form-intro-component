@@ -1,5 +1,5 @@
-import React from "react";
 import Form from "./Form";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -17,14 +17,16 @@ function App() {
               developers this is invaluable.
             </p>
           </div>
+        </div>
+
+        <div className="App-col-right">
           <div className="App-blue-rectangle">
             <p className="App-blue-rect-text">
               <span>Try it free 7 days</span> then $20/mo. thereafter.
             </p>
           </div>
-        </div>
-        <div className="App-col-right">
           <Form />
+          <Footer />
         </div>
       </div>
     </div>

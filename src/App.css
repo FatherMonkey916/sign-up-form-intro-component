@@ -15,7 +15,7 @@
 
 .App-container {
   margin: 5.5rem 0 4rem 0;
-  width: min(500px, 90%);
+  width: min(900px, 90%);
 }
 
 .App-copy-heading {
@@ -53,4 +53,23 @@
 
 .App-blue-rect-text span {
   font-weight: var(--bold);
+}
+
+/* Media Queries */
+@media (min-width: 900px) {
+  .App-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .App-copy-container {
+    text-align: left;
+    width: 525px;
+  }
+
+  .App-copy-heading {
+    font-size: 3.125rem;
+    line-height: 55px;
+    letter-spacing: -0.52px;
+  }
 }

@@ -11,6 +11,9 @@
 }
 
 .Form input {
+  border: 1px solid var(--color-neutral-grayish-blue);
+  border-radius: 5px;
+
   font-size: 0.875rem;
   font-weight: var(--semi-bold);
   line-height: 26px;
