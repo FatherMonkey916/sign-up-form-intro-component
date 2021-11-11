@@ -23,6 +23,7 @@ export default function Form() {
   };
 
   return (
+    //TODO: Add icons to inputs when in error state
     <div className="Form">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="Form-field">
