@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import iconError from "./images/icon-error.svg";
 import "./Form.css";
 
 type UserInfo = {
