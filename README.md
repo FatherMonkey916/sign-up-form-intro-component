@@ -16,8 +16,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [GH Pages](https://andrewhuntington.github.io/intro-component-with-sign-up-form)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-signup-form-using-react-and-typescript-ZLixxNjkX](https://www.frontendmentor.io/solutions/responsive-signup-form-using-react-and-typescript-ZLixxNjkX)
+- Live Site URL: [https://andrewhuntington.github.io/intro-component-with-sign-up-form](https://andrewhuntington.github.io/intro-component-with-sign-up-form)
 
 ## My process
 
@@ -52,15 +50,18 @@ Users should be able to:
 
 ### What I learned
 
-To be updated later.
+The major take away from this project is a fundamental understanding of how to use React Hook Form and how to include type validation in HTML forms using TypeScript.
+
+Another thing that I learned was how to incorporate .svg art into my project, as well as insert these assets into input fields using CSS pseudo selectors, like ::after and ::before.
 
 ### Continued development
 
-To be updated later.
+I hope to continue to further develope my skills with React and TypeScript, as well as learn more CSS tricks and techniques.
 
 ### Useful resources
 
-To be updated later.
+- [React Hook Form](https://react-hook-form.com/) - Documentation for how to use the React Hook Form library.
+- [The Frontend Mentor Slack Channel](https://frontendmentor.slack.com/) - A place to chat with other Frontend Mentor members.
 
 ## Author
 
@@ -69,4 +70,4 @@ To be updated later.
 
 ## Acknowledgments
 
-To be updated later.
+Special thanks to ApplePieGiraffe and Alex Marshall from the Frontend Mentor Slack channel. ApplePieGiraffe's code and advice helped me add icons inside the inputs of my form, and Alex Marshall provided an alternate solution that I may use in the future.
