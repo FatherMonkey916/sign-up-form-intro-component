@@ -24,7 +24,6 @@ export default function Form() {
   };
 
   return (
-    //TODO: Add icons to inputs when in error state
     <div className="Form">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="Form-field">
@@ -36,6 +35,7 @@ export default function Form() {
             {...register("firstName", { required: true })}
             autoFocus
           />
+          {errors.firstName && <div className="Form-error-icon"></div>}
           {errors.firstName && (
             <p className="Form-error-msg">First Name cannot be empty</p>
           )}
@@ -49,6 +49,7 @@ export default function Form() {
             placeholder="Last Name"
             {...register("lastName", { required: true })}
           />
+          {errors.lastName && <div className="Form-error-icon"></div>}
           {errors.lastName && (
             <p className="Form-error-msg">Last Name cannot be empty</p>
           )}
@@ -65,6 +66,7 @@ export default function Form() {
               pattern: /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/,
             })}
           />
+          {errors.email && <div className="Form-error-icon"></div>}
           {errors?.email?.type === "required" && (
             <p className="Form-error-msg">Email cannot be empty</p>
           )}
@@ -81,6 +83,7 @@ export default function Form() {
             placeholder="Password"
             {...register("password", { required: true })}
           />
+          {errors.password && <div className="Form-error-icon"></div>}
           {errors.password && (
             <p className="Form-error-msg">Password cannot be empty</p>
           )}

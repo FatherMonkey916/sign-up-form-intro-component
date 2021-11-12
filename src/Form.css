@@ -8,6 +8,7 @@
 
 .Form-field {
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .Form-input {
@@ -73,4 +74,11 @@
   text-align: right;
 
   margin-top: 6px;
+}
+
+.Form-error-icon::before {
+  content: url(./images/icon-error.svg);
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
