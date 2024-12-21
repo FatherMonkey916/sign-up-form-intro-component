@@ -65,7 +65,6 @@ I hope to continue to further develope my skills with React and TypeScript, as w
 
 ## Author
 
-- Website - [My Homepage](https://andrewhuntington.com)
 - Frontend Mentor - [@AndrewHuntington](https://www.frontendmentor.io/profile/AndrewHuntington)
 
 ## Acknowledgments
